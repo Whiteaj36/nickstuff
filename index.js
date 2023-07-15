@@ -1,8 +1,8 @@
 const csv = require('csvtojson')
 
 function main() {
-    const masterEmailFileName = './csvs/emails3.csv' // NICK: Change this to whatever your master email list is
-    const testEmailFileName = './csvs/emails1.csv' // NICK: Change this to wahtever you want to remove duplicates in here
+    const masterEmailFileName = './csvs/master.csv' // NICK: Change this to whatever your master email list is
+    const testEmailFileName = './csvs/test.csv' // NICK: Change this to wahtever you want to remove duplicates in here
 
     csv({delimiter:','})
     .fromFile(masterEmailFileName)

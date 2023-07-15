@@ -15,7 +15,7 @@ function main() {
             testEmails.forEach((testEmail) => {
                 let matchFound = false
                 masterEmails.forEach((masterEmail) => {
-                    if (testEmail.email === masterEmail.email) { // NICK: these lines do the comparison between the two values. 
+                    if (testEmail.Email === masterEmail.Email) { // NICK: these lines do the comparison between the two values. 
                         // testEmail and masterEmail have each line in the csv, 
                         // and you can access the values by doing testEmail.email to get emails, or testEmail.name to get names
                         matchFound=true
